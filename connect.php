@@ -38,7 +38,7 @@ $sperocoin = new Sperocoin('username','password');
 $sperocoin = new Sperocoin('username','password','host','port');
 // Defaults are:
 //	host = localhost
-//	port = 8332
+//	port = 55681
 //	proto = http
 
 // If you wish to make an SSL connection you can set an optional CA certificate or leave blank
@@ -92,7 +92,7 @@ class Sperocoin
      * @param string $proto
      * @param string $url
      */
-    public function __construct($username, $password, $host = 'localhost', $port = 8332, $url = null)
+    public function __construct($username, $password, $host = 'localhost', $port = 55681, $url = null)
     {
         $this->username      = $username;
         $this->password      = $password;
